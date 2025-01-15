@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Suddula Vineeth Raghavendra</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #F5F5F5; /* Light gray background */
+        }
+        header {
+            background-color: #7B2C2F; /* Dark maroon */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            height: 80px;
+            margin-bottom: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #7B2C2F; /* Dark maroon */
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #5A1E21; /* Slightly darker maroon */
+            color: white;
+        }
+        section {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #7B2C2F; /* Dark maroon */
+        }
+        .skills, .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #7B2C2F; /* Dark maroon */
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33.33% - 40px);
+            background-color: #F5F5F5; /* Light gray */
+        }
+        footer {
+            background-color: #7B2C2F; /* Dark maroon */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            color: white;
+            background-color: #7B2C2F; /* Dark maroon */
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #5A1E21; /* Slightly darker maroon */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="FULLLOGO.jpg">
+    <h1>Suddula Vineeth Raghavendra</h1>
+    <p>Third-Year Undergraduate | Computer Science & Engineering</p>
+    <p>Email: <a href="mailto:cs22b045@iittp.ac.in">cs22b045@iittp.ac.in</a> | Mobile: +91-7981865725</p>
+    <p><a href="https://github.com/VINEETH1425" class="btn">GitHub</a> <a href="https://www.linkedin.com/in/s-v-raghavvendra-9a2930307/" class="btn">LinkedIn</a></p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a motivated and dedicated third-year Computer Science undergraduate at IIT Tirupati, with strong foundations in Java, Data Structures, and Algorithms. My passion lies in developing innovative solutions, enhancing my technical expertise, and staying updated with the latest industry trends.</p>
+    <h3>Education</h3>
+    <ul>
+        <li><b>Indian Institute of Technology, Tirupati</b> - B.Tech in Computer Science (CGPA: 8.39/10)</li>
+        <li><b>Narayana Junior College, Hyderabad</b> - Senior Secondary (89%)</li>
+        <li><b>Dr KKR’S Gowtham Concept School, Hyderabad</b> - Secondary Education (93%)</li>
+    </ul>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="card">
+            <h3>Programming Languages</h3>
+            <p>Java, C, C++, CUDA, Assembly, HTML, CSS</p>
+        </div>
+        <div class="card">
+            <h3>Technical Skills</h3>
+            <p>Data Structures & Algorithms, OOP, Parallel Computing, Machine Learning</p>
+        </div>
+        <div class="card">
+            <h3>Tools</h3>
+            <p>VS Code, Jupyter Notebook, Tableau, Linux Terminal</p>
+        </div>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+    <p><b>1 Million For 1 Billion (1M1B)</b> - Green Intern (Dec 2024 - Current)</p>
+    <p>Focused on data analytics (Tableau) and climate change solutions aligned with the UN's SDGs.</p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="card">
+            <h3>RISC-V Simulator</h3>
+            <p>Developed a multi-core simulator in Java, replicating assembly execution with performance metrics.</p>
+            <a href="https://github.com/VINEETH1425/RISC-V.git" class="btn">View on GitHub</a>
+        </div>
+        <div class="card">
+            <h3>Spam Detection Model</h3>
+            <p>Implemented spam detection using machine learning with Naive Bayes and preprocessing techniques.</p>
+            <a href="https://github.com/VINEETH1425/SMS-SPAM-DETECTION.git" class="btn">View on GitHub</a>
+        </div>
+        <div class="card">
+            <h3>Car Mileage Prediction</h3>
+            <p>Built regression models to predict car mileage, optimizing feature selection for accuracy.</p>
+            <a href="https://github.com/VINEETH1425/AutoMpg-1.git" class="btn">View on GitHub</a>
+        </div>
+        <div class="card">
+            <h3>Saral Samvidhan</h3>
+            <p>Created a multilingual platform for legal literacy using React.js, Tailwind CSS, and MongoDB.</p>
+            <a href="https://github.com/VINEETH1425/saral_samvidhan.git" class="btn">View on GitHub</a>
+        </div>
+    </div>
+</section>
+
+
+</body>
+</html>
